@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scs2682.exercise08.ui.form.Form xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:id='@+id/photo'
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:layout_gravity="center"
+		android:background="@mipmap/empty"
+		android:clickable="true"
+		android:scaleType="centerInside"
+		/>
+	<EditText
+		android:id="@+id/firstName"
+		android:textSize="20sp"
+		android:hint="@string/first_name"
+		android:inputType="textPersonName"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"/>
+	<EditText
+		android:id="@+id/lastName"
+		android:textSize="20sp"
+		android:hint="@string/last_name"
+		android:inputType="textPersonName"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"/>
+	<EditText
+		android:id="@+id/phone"
+		android:textSize="20sp"
+		android:hint="@string/phone_number"
+		android:inputType="phone"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"/>
+	<EditText
+		android:id="@+id/email"
+		android:textSize="20sp"
+		android:hint="@string/email"
+		android:inputType="textEmailAddress"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"/>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layoutDirection="rtl"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/update"
+			android:text="@string/update"
+			android:layout_marginStart="10dp"
+			android:layout_width="100dp"
+			android:layout_height="40dp" />
+		<Button
+			android:id="@+id/cancel"
+			android:text="@string/cancel"
+			android:layout_width="100dp"
+			android:layout_height="40dp" />
+	</LinearLayout>
+</scs2682.exercise08.ui.form.Form>
